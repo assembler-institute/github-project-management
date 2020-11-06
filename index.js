@@ -2,4 +2,4 @@ function helloWorld(name) {
   console.log(`Hey there ${name}!`);
 }
 
-helloWorld('Alfredo');
+helloWorld('Alfredo Rueda');
