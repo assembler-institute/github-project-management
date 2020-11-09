@@ -1,23 +1,18 @@
 {
-  "name": "prueba",
+  "name": "Github Project Management Example",
   "version": "1.0.0",
-  "description": "this is a test",
-  "main": "index.js",
+  "description": "Github project management example using vanillajs",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/assembler-school/prueba.git"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
   },
   "keywords": [
-    "test"
-  ],
-  "author": "Alfredo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/assembler-school/prueba/issues"
-  },
-  "homepage": "https://github.com/assembler-school/prueba#readme"
+    "javascript"
+  ]
 }
