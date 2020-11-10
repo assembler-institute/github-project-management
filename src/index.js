@@ -1,6 +1,6 @@
 import users from "./__mocks__/users";
 
-function initUserTable() {
+function thisFunctionNameMakesNoSense() {
   // TODO: add issue to fetch from a real API
   users.forEach((user) => {
     const currentTableNode = document.createElement("tr");
@@ -13,4 +13,4 @@ function initUserTable() {
   });
 }
 
-initUserTable();
+thisFunctionNameMakesNoSense();
