@@ -1,8 +1,6 @@
 import users from "./__mocks__/users";
 
 function fetchUserData() {
-  // test
-  
   // TODO: add issue to fetch from a real API
   users.forEach((user) => {
     const currentTableNode = document.createElement("tr");
